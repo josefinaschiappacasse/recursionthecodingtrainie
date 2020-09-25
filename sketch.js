@@ -13,7 +13,9 @@ function draw() {
   angle = s1.value();
   stroke(0);
   translate(200, height);
-  branch(100);
+  branch(20);
+  branch(70);
+  branch(103);
 }
 
 function branch(len) {
