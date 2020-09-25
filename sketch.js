@@ -13,8 +13,11 @@ function draw() {
   angle = s1.value();
   stroke(0);
   translate(200, height);
-  branch(20);
+  stroke(0);
+  branch(30);
+  stroke(255)
   branch(70);
+  stroke("pink");
   branch(103);
 }
 
