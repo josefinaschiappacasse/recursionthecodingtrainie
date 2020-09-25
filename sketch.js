@@ -9,11 +9,11 @@ function setup() {
 }
 
 function draw() {
-  background(220);
+  background(0);
   angle = s1.value();
   stroke(0);
   translate(200, height);
-  stroke(0);
+  stroke(255);
   branch(30);
   stroke(255)
   branch(70);
