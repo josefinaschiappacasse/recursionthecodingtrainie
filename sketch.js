@@ -11,20 +11,21 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(255);
+  fill(255, 45, 78, 100);
   angle = s1.value();
+  translate(200, 400);
   stroke(0);
-  translate(200, height);
-  stroke(255);
   branch(30);
-  stroke(255)
-  branch(70);
-  stroke("pink");
+  //stroke(0)
+  //branch(70);
+  stroke(0);
   branch(103);
+  
 }
 
 function branch(len) {
-  line(0, 0, 0, -len);
+  ellipse(0, 10, 30, -len);
   translate(0, -len);
   if (len > 4) { 
     push();
