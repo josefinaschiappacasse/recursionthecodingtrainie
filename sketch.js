@@ -1,13 +1,11 @@
 //https://www.youtube.com/watch?v=0jjeOYMjmDU
-let sketch;
+
 var angle = 0
 var s1;
 
 function setup() {
-  sketch = createCanvas(400, 400);
-  sketch.parent("p5");
-  s1 = createSlider(0, TWO_PI, PI / 4, 0.01);
-  s1.parent("p5");
+  createCanvas(400, 400);
+  s1 = createSlider(0, TWO_PI, PI / 9, 0.01);
 }
 
 function draw() {
